@@ -11,19 +11,6 @@ class UserComponent extends React.Component {
     };
   }
 
-  changeValue = () => {
-    const currentFirstname = this.state.firstname;
-    const currentLastname = this.state.lastname;
-    const currentAge = this.state.age;
-    const currentPoints = this.state.points;
-    this.setState({
-      firstname: !currentFirstname,
-      lastname: !currentLastname,
-      age: !currentAge,
-      points: !currentPoints,
-    });
-  };
-
   render() {
     return (
       <>
